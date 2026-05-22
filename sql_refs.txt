@@ -1,0 +1,150 @@
+=== _Document155 KOLONKI ===
+  _IDRRef                                  binary
+  _Version                                 timestamp
+  _Marked                                  binary
+  _Date_Time                               datetime2
+  _NumberPrefix                            datetime2
+  _Number                                  nvarchar
+  _Posted                                  binary
+  _Fld610RRef                              binary
+  _Fld611RRef                              binary
+  _Fld612                                  numeric
+  _Fld613RRef                              binary
+  _Fld614                                  nvarchar
+  _Fld615RRef                              binary
+  _Fld616                                  datetime2
+  _Fld617                                  datetime2
+  _Fld618                                  datetime2
+  _Fld619                                  datetime2
+  _Fld620RRef                              binary
+  _Fld621                                  nvarchar
+  _Fld622                                  datetime2
+  _Fld623RRef                              binary
+  _Fld624_TYPE                             binary
+  _Fld624_RTRef                            binary
+  _Fld624_RRRef                            binary
+  _Fld625RRef                              binary
+  _Fld626RRef                              binary
+  _Fld627RRef                              binary
+  _Fld628RRef                              binary
+  _Fld629RRef                              binary
+  _Fld630RRef                              binary
+  _Fld631                                  binary
+  _Fld632RRef                              binary
+  _Fld633RRef                              binary
+  _Fld634                                  datetime2
+  _Fld635                                  nvarchar
+  _Fld636RRef                              binary
+  _Fld637                                  nvarchar
+  _Fld638                                  nvarchar
+  _Fld639                                  numeric
+  _Fld640                                  datetime2
+  _Fld641                                  numeric
+  _Fld642RRef                              binary
+  _Fld643                                  nvarchar
+  _Fld644                                  nvarchar
+  _Fld645                                  nvarchar
+  _Fld646                                  nvarchar
+  _Fld647                                  nvarchar
+  _Fld648RRef                              binary
+  _Fld649                                  numeric
+  _Fld650                                  numeric
+  _Fld651RRef                              binary
+  _Fld652RRef                              binary
+  _Fld653RRef                              binary
+  _Fld654RRef                              binary
+  _Fld655RRef                              binary
+  _Fld656RRef                              binary
+  _Fld657RRef                              binary
+  _Fld658                                  numeric
+  _Fld659                                  numeric
+  _Fld660                                  binary
+  _Fld661                                  binary
+  _Fld662RRef                              binary
+  _Fld5564                                 numeric
+  _Fld5565                                 nvarchar
+  _Fld5575                                 binary
+  _Fld5589RRef                             binary
+  _Fld5657                                 nvarchar
+  _Fld339                                  numeric
+
+=== _Document155 SAMPLE (5 strok) ===
+_IDRRef  _Version  _Marked  _Date_Time  _NumberPrefix  _Number  _Posted  _Fld610RRef  _Fld611RRef  _Fld612  _Fld613RRef  _Fld614  _Fld615RRef  _Fld616  _Fld617  _Fld618  _Fld619  _Fld620RRef  _Fld621  _Fld622  _Fld623RRef  _Fld624_TYPE  _Fld624_RTRef  _Fld624_RRRef  _Fld625RRef  _Fld626RRef  _Fld627RRef  _Fld628RRef  _Fld629RRef  _Fld630RRef  _Fld631  _Fld632RRef  _Fld633RRef  _Fld634  _Fld635  _Fld636RRef  _Fld637  _Fld638  _Fld639  _Fld640  _Fld641  _Fld642RRef  _Fld643  _Fld644  _Fld645  _Fld646  _Fld647  _Fld648RRef  _Fld649  _Fld650  _Fld651RRef  _Fld652RRef  _Fld653RRef  _Fld654RRef  _Fld655RRef  _Fld656RRef  _Fld657RRef  _Fld658  _Fld659  _Fld660  _Fld661  _Fld662RRef  _Fld5564  _Fld5565  _Fld5575  _Fld5589RRef  _Fld5657  _Fld339
+b'\x80Q\xd0P\x99dq\x  b'\x00\x00\x00\x00\x  b'\x00'  4016-12-20 10:08:17  4016-01-01 00:00:00  000001635  b'\x00'  b'\x00\x00\x00\x00\x  b'\x81z\xd0P\x99dq\x  0  b'\x9b\xef\xd0\'\x88    b'\xbd\x18\xa2\xac\x  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00  b'\x00\x00\x00\x00\x    2001-01-01 00:00:00  b'\x00\x00\x00\x00\x  b'\x01'  b'\x00\x00\x00\x00'  b'\x00\x00\x00\x00\x  b'\xac\x84\xd0P\x99d  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00'  b'\x91{\x008\xc0Ql\x  b'\x00\x00\x00\x00\x  2001-01-01 00:00:00    b'\x00\x00\x00\x00\x      0  2001-01-01 00:00:00  0  b"\xbe',;p\xe8ZX\x11            b'\x00\x00\x00\x00\x  3140.00  0  b'\x00\x00\x00\x00\x  b'\xad\xc6Z,\x80\x13  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x95F\xd0P\x99dq\x  b'\x00\x00\x00\x00\x  b'\x97=\xe4\xa8\xdf\  0  0.0000  b'\x00'  b'\x00'  b'\x00\x00\x00\x00\x  0    b'\x00'  b'\x00\x00\x00\x00\x    0
+b'\x80Q\xd0P\x99dq\x  b'\x00\x00\x00\x00\x  b'\x00'  4016-12-20 10:31:51  4016-01-01 00:00:00  000001636  b'\x00'  b'\x00\x00\x00\x00\x  b'\xb3M\xd0P\x99dq\x  0  b'\x9b\xef\xd0\'\x88    b'\xbd\x18\xa2\xac\x  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00  b'\x00\x00\x00\x00\x    2001-01-01 00:00:00  b'\x00\x00\x00\x00\x  b'\x01'  b'\x00\x00\x00\x00'  b'\x00\x00\x00\x00\x  b'\x96\t\xd0P\x99dq\  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00'  b'\x91{\x008\xc0Ql\x  b'\x00\x00\x00\x00\x  2001-01-01 00:00:00    b'\x00\x00\x00\x00\x      0  2001-01-01 00:00:00  0  b"\xbe',;p\xe8ZX\x11            b'\x00\x00\x00\x00\x  640.00  0  b'\x00\x00\x00\x00\x  b'\xad\xc6Z,\x80\x13  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x95F\xd0P\x99dq\x  b'\x00\x00\x00\x00\x  b'\x97=\xe4\xa8\xdf\  0  0.0000  b'\x00'  b'\x00'  b'\x00\x00\x00\x00\x  0    b'\x00'  b'\x00\x00\x00\x00\x    0
+b'\x80Q\xd0P\x99dt\x  b'\x00\x00\x00\x00\x  b'\x00'  4017-10-06 12:44:14  4017-01-01 00:00:00  00000000316  b'\x01'  b'\x00\x00\x00\x00\x  b'\x80Q\xd0P\x99dt\x  0  b"\x89\xaa\xd0'\x88\  Перенесен из Бухгалт  b'\x00\x00\x00\x00\x  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00  b'\x00\x00\x00\x00\x    2001-01-01 00:00:00  b'\x00\x00\x00\x00\x  b'\x01'  b'\x00\x00\x00\x00'  b'\x00\x00\x00\x00\x  b'\x80Q\xd0P\x99dt\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00'  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  2001-01-01 00:00:00    b'\x00\x00\x00\x00\x      0  2001-01-01 00:00:00  0  b'\x00\x00\x00\x00\x            b'\x00\x00\x00\x00\x  0.00  0  b'\x00\x00\x00\x00\x  b'\xad\xc6Z,\x80\x13  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  0  0.0000  b'\x00'  b'\x01'  b'\x00\x00\x00\x00\x  0    b'\x01'  b'\x00\x00\x00\x00\x    0
+b'\x80Q\xd0P\x99dt\x  b'\x00\x00\x00\x00\x  b'\x00'  4017-10-06 15:52:10  4017-01-01 00:00:00  00000000317  b'\x01'  b'\x00\x00\x00\x00\x  b'\xa9\x8a\xd0P\x99d  0  b"\x89\xaa\xd0'\x88\  Перенесен из Бухгалт  b'\x00\x00\x00\x00\x  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00  b'\x00\x00\x00\x00\x    2001-01-01 00:00:00  b'\x00\x00\x00\x00\x  b'\x01'  b'\x00\x00\x00\x00'  b'\x00\x00\x00\x00\x  b'\x92\x1f\xd0P\x99d  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00'  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  2001-01-01 00:00:00    b'\x00\x00\x00\x00\x      0  2001-01-01 00:00:00  0  b'\x00\x00\x00\x00\x            b'\x00\x00\x00\x00\x  0.00  0  b'\x00\x00\x00\x00\x  b'\xad\xc6Z,\x80\x13  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  0  0.0000  b'\x00'  b'\x01'  b'\x00\x00\x00\x00\x  0    b'\x01'  b'\x00\x00\x00\x00\x    0
+b'\x80Q\xd0P\x99dt\x  b'\x00\x00\x00\x00\x  b'\x00'  4017-10-06 16:24:45  4017-01-01 00:00:00  00000000318  b'\x01'  b'\x00\x00\x00\x00\x  b'\x94\xc9\xd0P\x99d  0  b"\x89\xaa\xd0'\x88\  Перенесен из Бухгалт  b'\x00\x00\x00\x00\x  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00  b'\x00\x00\x00\x00\x    2001-01-01 00:00:00  b'\x00\x00\x00\x00\x  b'\x01'  b'\x00\x00\x00\x00'  b'\x00\x00\x00\x00\x  b'\x92\x1f\xd0P\x99d  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00'  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  2001-01-01 00:00:00    b'\x00\x00\x00\x00\x      0  2001-01-01 00:00:00  0  b'\x00\x00\x00\x00\x            b'\x00\x00\x00\x00\x  0.00  0  b'\x00\x00\x00\x00\x  b'\xad\xc6Z,\x80\x13  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  0  0.0000  b'\x00'  b'\x01'  b'\x00\x00\x00\x00\x  0    b'\x01'  b'\x00\x00\x00\x00\x    0
+
+=== _Reference109 KOLONKI ===
+  _IDRRef                                  binary
+  _Version                                 timestamp
+  _Marked                                  binary
+  _PredefinedID                            binary
+  _ParentIDRRef                            binary
+  _Folder                                  binary
+  _Code                                    nvarchar
+  _Description                             nvarchar
+  _Fld2650RRef                             binary
+  _Fld2651RRef                             binary
+  _Fld2652                                 nvarchar
+  _Fld2653                                 nvarchar
+  _Fld2654RRef                             binary
+  _Fld2655RRef                             binary
+  _Fld2656RRef                             binary
+  _Fld2657RRef                             binary
+  _Fld2658                                 datetime2
+  _Fld2659                                 datetime2
+  _Fld2660                                 datetime2
+  _Fld2661                                 nvarchar
+  _Fld2662                                 nvarchar
+  _Fld2663RRef                             binary
+  _Fld2664RRef                             binary
+  _Fld2665                                 nvarchar
+  _Fld339                                  numeric
+
+=== _Reference109 SAMPLE ===
+_IDRRef  _Version  _Marked  _PredefinedID  _ParentIDRRef  _Folder  _Code  _Description  _Fld2650RRef  _Fld2651RRef  _Fld2652  _Fld2653  _Fld2654RRef  _Fld2655RRef  _Fld2656RRef  _Fld2657RRef  _Fld2658  _Fld2659  _Fld2660  _Fld2661  _Fld2662  _Fld2663RRef  _Fld2664RRef  _Fld2665  _Fld339
+b'\x80Q\xd0P\x99dt\xde\x11\xe7  b'\x00\x00\x00\x00\x00\x01\xad  b'\x00'  b'\x00\x00\x00\x00\x00\x00\x00  b'\x8a \x00\x0c)\x0e!\xe4\x11\  b'\x01'  00000067499   Isuzu  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00      b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00      b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00    0
+b'\x80Q\xd0P\x99dt\xde\x11\xe7  b'\x00\x00\x00\x00\x00\x01\xad  b'\x00'  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  b'\x01'  00000067500  HYUNDAI HD 65  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00      b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00      b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00    0
+b'\x80X\xd0P\x99dq\xb6\x11\xe6  b'\x00\x00\x00\x00\x00\x01\xad  b'\x00'  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  b'\x01'  000000432  Toyota Camry  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  JTNBE40K603028141    b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00  2001-01-01 00:00:00  2001-01-01 00:00:00  2001-01-01 00:00:00      b'\x00\x00\x00\x00\x00\x00\x00  b'\x00\x00\x00\x00\x00\x00\x00    0
+
+=== _Reference123 KOLONKI ===
+  _IDRRef                                  binary
+  _Version                                 timestamp
+  _Marked                                  binary
+  _PredefinedID                            binary
+  _OwnerIDRRef                             binary
+  _Code                                    nvarchar
+  _Description                             nvarchar
+  _Fld2689RRef                             binary
+  _Fld2690RRef                             binary
+  _Fld2691RRef                             binary
+  _Fld2692RRef                             binary
+  _Fld2693RRef                             binary
+  _Fld2694                                 binary
+  _Fld2695                                 nvarchar
+  _Fld2696                                 datetime2
+  _Fld339                                  numeric
+
+=== _Reference123 SAMPLE ===
+_IDRRef  _Version  _Marked  _PredefinedID  _OwnerIDRRef  _Code  _Description  _Fld2689RRef  _Fld2690RRef  _Fld2691RRef  _Fld2692RRef  _Fld2693RRef  _Fld2694  _Fld2695  _Fld2696  _Fld339
+b'\x80=\xd0P\x99dq\xb6\x11\xe7  b'\x00\x00\x00\x00\x00\x03\xac  b'\x00'  b'\x00\x00\x00\x00\x00\x00\x00  b'\x80=\xd0P\x99dq\xb6\x11\xe7  000001355  Без договора  b'\xad\xc6Z,\x80\x13\x92c\x11\  b'\x00\x00\x00\x00\x00\x00\x00  b'\x97=\xe4\xa8\xdf\x8c\x0c>\x  b'\x97\x8c\x12\r\xea~<\xcdH4\x  b'\xae#\xc6\xbd\xef\\\xf6\xdaD  b'\x00'    2001-01-01 00:00:00  0
+b'\x80Q\xd0P\x99dq\xa8\x11\xe6  b'\x00\x00\x00\x00\x00\x03\xac  b'\x00'  b'\x00\x00\x00\x00\x00\x00\x00  b'\x80Q\xd0P\x99dq\xa8\x11\xe6  000001208  Без договора  b'\xad\xc6Z,\x80\x13\x92c\x11\  b'\x00\x00\x00\x00\x00\x00\x00  b'\x97=\xe4\xa8\xdf\x8c\x0c>\x  b'\x97\x8c\x12\r\xea~<\xcdH4\x  b'\xae#\xc6\xbd\xef\\\xf6\xdaD  b'\x00'    2001-01-01 00:00:00  0
+b'\x80Q\xd0P\x99dt\xde\x11\xe7  b'\x00\x00\x00\x00\x00\x03\xac  b'\x00'  b'\x00\x00\x00\x00\x00\x00\x00  b'\x80Q\xd0P\x99dt\xde\x11\xe7  000001730  Без договора  b'\xad\xc6Z,\x80\x13\x92c\x11\  b'\x00\x00\x00\x00\x00\x00\x00  b'\x97=\xe4\xa8\xdf\x8c\x0c>\x  b'\x97\x8c\x12\r\xea~<\xcdH4\x  b'\xae#\xc6\xbd\xef\\\xf6\xdaD  b'\x00'    2001-01-01 00:00:00  0
+
+=== _Document155_VT679 SAMPLE ===
+_Document155_IDRRef  _Fld339  _KeyField  _LineNo680  _Fld681RRef  _Fld682RRef  _Fld683  _Fld684  _Fld685  _Fld686  _Fld687RRef  _Fld688  _Fld689  _Fld690  _Fld691  _Fld692RRef  _Fld693RRef  _Fld5669
+b'\x80Q\xd0P\x99dt\x  0  b'\x00\x00\x00\x00'  1  b'\xb7\x9c\xd0P\x99d  b'\xad\xc6Z,\x80\x13  4.0000  0.000  2621.00  10484.00  b'\xad\xc6Z,\x80\x13  1123.29  0.00000  0.00  0.00  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  
+b'\x80Q\xd0P\x99dt\x  0  b'\x00\x00\x00\x01'  2  b'\xb7\x9c\xd0P\x99d  b'\xad\xc6Z,\x80\x13  2.0000  0.000  3640.00  7280.00  b'\xad\xc6Z,\x80\x13  780.00  0.00000  0.00  0.00  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  
+b'\x80Q\xd0P\x99dt\x  0  b'\x00\x00\x00\x02'  3  b'\xb7\x9c\xd0P\x99d  b'\xad\xc6Z,\x80\x13  2.0000  0.000  4368.00  8736.00  b'\xad\xc6Z,\x80\x13  936.00  0.00000  0.00  0.00  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  
+b'\x80Q\xd0P\x99dt\x  0  b'\x00\x00\x00\x01'  1  b"\x9fj\xd0'\x88\xcf  b'\xad\xc6Z,\x80\x13  1.0000  0.000  5300.00  5300.00  b'\xad\xc6Z,\x80\x13  567.86  0.00000  0.00  0.00  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  
+b'\x80Q\xd0P\x99dt\x  0  b'\x00\x00\x00\x02'  2  b'\xa9\x8a\xd0P\x99d  b'\xad\xc6Z,\x80\x13  1.0000  0.000  20698.00  20698.00  b'\xad\xc6Z,\x80\x13  2217.64  0.00000  0.00  0.00  b'\x00\x00\x00\x00\x  b'\x00\x00\x00\x00\x  
+
+=== _Document155_VT663 SAMPLE ===
+_Document155_IDRRef  _Fld339  _KeyField  _LineNo664  _Fld665RRef  _Fld666  _Fld667  _Fld668  _Fld669  _Fld670  _Fld671RRef  _Fld672  _Fld673  _Fld674  _Fld675  _Fld676RRef  _Fld677  _Fld678
+b'\x80Q\xd0P\x99dq\x  0  b'\x00\x00\x00\x01'  1  b'\x84\xe4\xd0P\x99d  0.6250  4000.00    0.000  2500.00  b"\xbe',;p\xe8ZX\x11  267.86  0.00000  0.00  0.00  b'\x00\x00\x00\x00\x    1
+b'\x80Q\xd0P\x99dq\x  0  b'\x00\x00\x00\x02'  2  b'\x88\xb0\xd0P\x99d  0.2000  4000.00    0.000  800.00  b"\xbe',;p\xe8ZX\x11  68.57  20.00000  160.00  0.00  b'\x00\x00\x00\x00\x    2
+b'\x80Q\xd0P\x99dq\x  0  b'\x00\x00\x00\x01'  1  b'\x88\xb0\xd0P\x99d  0.2000  4000.00    0.000  800.00  b"\xbe',;p\xe8ZX\x11  68.57  20.00000  160.00  0.00  b'\x00\x00\x00\x00\x    1
+b'\x80Q\xd0P\x99dt\x  0  b'\x00\x00\x00\x00'  1  b'\x80Q\xd0P\x99dt\x  3.2000  4000.00    0.000  12800.00  b'\x00\x00\x00\x00\x  0.00  0.00000  0.00  0.00  b'\x00\x00\x00\x00\x    1
+b'\x80Q\xd0P\x99dt\x  0  b'\x00\x00\x00\x01'  2  b'\x80Q\xd0P\x99dt\x  2.4000  4000.00    0.000  9600.00  b'\x00\x00\x00\x00\x  0.00  0.00000  0.00  0.00  b'\x00\x00\x00\x00\x    2

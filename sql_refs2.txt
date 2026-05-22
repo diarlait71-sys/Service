@@ -1,0 +1,269 @@
+=== REFERENCY (10-50000 strok) ===
+  _Reference131                  10
+  _Reference144                  10
+  _Reference127                  11
+  _Reference77                   11
+  _Reference120                  12
+  _Reference128                  13
+  _Reference132                  14
+  _Reference89                   14
+  _Reference107_VT2623           15
+  _Reference61                   17
+  _Reference133                  18
+  _Reference107                  19
+  _Reference68                   20
+  _Reference122                  24
+  _Reference51                   26
+  _Reference130                  29
+  _Reference91                   32
+  _Reference91_VT2226            32
+  _Reference82_VT2075            32
+  _Reference82                   34
+  _Reference124                  34
+  _Reference145                  37
+  _Reference5587                 42
+  _Reference78_VT2003            45
+  _Reference40_VT1351            48
+  _Reference146                  58
+  _Reference53                   70
+  _Reference115_VT5653           76
+  _Reference129                  80
+  _Reference74                   94
+  _Reference110                  95
+  _Reference78                   97
+  _Reference73_VT1911            112
+  _Reference44                   117
+  _Reference125                  118
+  _Reference5676_VT5677          126
+  _Reference5676                 140
+  _Reference131_VT2738           193
+  _Reference117                  204
+  _Reference112                  217
+  _Reference63                   255
+  _Reference106_VT2595           306
+  _Reference108                  312
+  _Reference5168                 313
+  _Reference114                  355
+  _Reference111                  403
+  _Reference104_VT2512           581
+  _Reference115                  627
+  _Reference139                  717
+  _Reference126                  731
+  _Reference73_VT5570            755
+  _Reference40                   769
+  _Reference53_VT1583            790
+  _Reference60                   959
+  _Reference82_VT2062            1136
+  _Reference73                   1396
+  _Reference115_VT5590           1818
+  _Reference51_VT1564            1863
+  _Reference5676_VT5682          2480
+  _Reference104                  6341
+  _Reference134                  7657
+  _Reference105_VT2550           42334
+
+=== SAMPLE IZ KAZHDOGO REFERENCE ===
+
+_Reference131 (10 rows):
+  code=000000007  desc=Автофургон Cola HD78 утепленный 4,95*2,3*2
+  code=000000008  desc=Фургон промтоварный 5000*2200*2200/три двери
+  code=000000006  desc=Авто-фургон Cola  HD78 утепленный 4.86*2.30*2.00м
+
+_Reference144 (10 rows):
+  code=000000002  desc=ТОО "DCG Alatau"
+  code=000000003  desc=ТОО «DCG TARAZ»
+  code=000000004  desc=ТОО "DCG Baidybek"
+
+_Reference127 (11 rows):
+  code=AO0000001  desc=000
+  code=AS0000001  desc=10%
+  code=AO0000003  desc=11%
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+
+_Reference120 (12 rows):
+  code=000000004  desc=Приходная (ндс в том чис)
+  code=DG0000001  desc=1000
+  code=DG0000003  desc=Гарантийное
+
+_Reference128 (13 rows):
+  code=000000011  desc=Импорт ТМЦ из стран ЕАЭС
+  code=000000012  desc=Товары, работы и услуги приобретенные без НДС
+  code=000000013  desc=Возврат тмз (база управленка)
+
+_Reference132 (14 rows):
+  code=240058R0  desc=W12:Антиблок_систем_АБС
+  code=КС10  desc=Замена амортизаторов
+  code=К23  desc=Замена масла двс
+
+_Reference89 (14 rows):
+  code=860  desc=ӨЗБЕКСТАН
+  code=--   desc=Казахстан
+  code=112  desc=БЕЛАРУСЬ
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+
+_Reference133 (18 rows):
+  code=000000013  desc=Запрет на изменение наименования и БИН / ИИН контрагента
+  code=000000014  desc=Запрет на редактирование склада при списании товаров
+  code=000000015  desc=Запрет на редактирование склада в реализации
+
+_Reference107 (19 rows):
+  code=000000001  desc=ТОО «DCG TARAZ»
+  code=000000002  desc=Филиал ТОО  в г.Усть-Каменогорск
+  code=000000002  desc=ТОО "DCG Baidybek"
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+
+_Reference122 (24 rows):
+  code=000000012  desc=Инструменты для сервиса
+  code=000000013  desc=Запасные части доп
+  code=000000014  desc=Аксесуары
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+
+_Reference130 (29 rows):
+  code=000005     desc=Продажа товаров, услуг, работ до постановки на учет по НДС  ( до 21.06.2021г.)
+  code=AS0000003  desc=Освобожденный оборот (финанс)
+  code=000005     desc=Освобожденный оборот
+
+_Reference91 (32 rows):
+  code=00006  desc=Сценарий синхронизации для DCG Baidybek
+  code=00007  desc=Сценарий синхронизации для Ontustik Auto
+  code=00008  desc=Сценарий синхронизации для DCG Aktau
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+
+_Reference124 (34 rows):
+  code=000000018  desc=50,00  (Процентом) На работы
+  code=000000019  desc=30,00  (Процентом) На работы
+  code=000000020  desc=АКция осень 30%
+
+_Reference145 (37 rows):
+  code=000000001  desc=Dashing
+  code=1  desc=111
+  code=2          desc=316300F1021025
+
+_Reference5587 (42 rows):
+  code=000000001  desc=Диагностика
+  code=000000002  desc=Промежуточное ТО
+  code=000000003  desc=ТО-2
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+
+_Reference146 (58 rows):
+  code=000000016  desc=5.3
+  code=000000017  desc=1.4
+  code=000000018  desc=1.1
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+
+_Reference129 (80 rows):
+  code=000000023  desc=Корпоративный подоходный налог с вознаграждения по депозиту
+  code=000000012  desc=ФОП (экология)
+  code=000000024  desc=Госпошлина 
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+
+_Reference110 (95 rows):
+  code=000000019  desc=BMW
+  code=000000020  desc=Suzuki
+  code=000000021  desc=Hummer
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+
+_Reference125 (118 rows):
+  code=112        desc=литр
+  code=017        desc=меш
+  code=3563       desc=вед
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+
+_Reference5676 (140 rows):
+  code=00000000001  desc=ТО-1
+  code=00000000002  desc=KIA
+  code=00000000003  desc=CHEVROLET
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+
+_Reference117 (204 rows):
+  code=000000040  desc=Жақынбек Аңсар
+  code=000000041  desc=Насен Кайржан Серикулы
+  code=000000042  desc=Пост 1
+
+_Reference112 (217 rows):
+  code=000000002  desc=коричневый
+  code=000000013  desc=Бежевый
+  code=000000018  desc=Оранжевый
+
+_Reference63 (255 rows):
+  code=000000000  desc=ДБ АО "Сбербанк" в г. Алматы
+  code=000000000  desc=АО "АТФБанк" (ДБ АО "First Heartland Jysan Bank")
+  code=000000000  desc=АО "KASPI BANK"
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+
+_Reference108 (312 rows):
+  code=000000008  desc=9 Отдел СТО по грузовым автомобилям 
+  code=000000009  desc=Отдел логистики
+  code=000000010  desc=Начальник отдела логистики
+
+_Reference5168 (313 rows):
+  code=Q72  desc=Q72 : Шум двигателя_На х.х
+  code=Е82  desc=A38 : Влажность
+  code=Е83  desc=W13 : Не работает
+
+_Reference114 (355 rows):
+  code=000000044  desc=Склад з/ч для служебных машин
+  code=000000045  desc=SHYM-Auto (ответ-хранение)
+  code=000000046  desc=ЛТД ОТОЗВАННЫЕ
+
+_Reference111 (403 rows):
+  code=000000079  desc=Elantra
+  code=000000080  desc=Fortuner
+  code=000000081  desc=5 - Серия
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+
+_Reference115 (627 rows):
+  code=TZ0000004  desc=KIA Доп
+  code=OK0000004  desc=ДОП Жибек-Жолы
+  code=OK0000005  desc=служебный 
+
+_Reference139 (717 rows):
+  code=ECEAC694-D021-494C-8A35-5A7C9D7D2C79  desc=Камшатов Ануар Еренгалиевич(ECEAC694-D021-494C-8A35-5A7C9D7D2C79)
+  code=C7B8508F-7029-41CA-933E-F2D933B62425  desc=Мартусин Олег(C7B8508F-7029-41CA-933E-F2D933B62425)
+  code=70DED56F-5A63-403B-A610-720329A38169  desc=Сысоев Роман(srv1c)
+
+_Reference126 (731 rows):
+  code=000000001  desc=Реализация товаров, работ и услуг (общие расходы)
+  code=000000014  desc=Chevrolet Жибек Жолы
+  code=000000015  desc=Jac Motors Не использовать
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+
+_Reference104 (6341 rows):
+  code=QJ0000002  desc=Никитин Александр Андреевич
+  code=000000119  desc=Парманкулов Батырбек Медетбекович
+  code=QJ0000003  desc=Тажибаева Жанат Октеновна
+
+_Reference134 (7657 rows):
+  code=000000390  desc=KZ72926080119M470000 в Казкоммерцбанк АО
+  code=000000354  desc=KZ45549H0398R7093316 в Qazaq Banki АО
+  code=000000056  desc=расчетный
+  ERROR: ('42S22', '[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Code". (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Недопустимое имя столбца "_Description". (207)')
+
+_Reference105:
+  code=000001042  desc=Конусбаев Мухтархан Бакытжанович
+  code=000000920  desc=Махмутов Шахрухжан Илхомжанович
+  code=000001364  desc=Meir-Trad Distribution Company ТОО
+  code=000001139  desc=Казмотор "KazMotor"ТОО
+  code=000001140  desc=Кудряшов Анатолий Сергеевич ИП
+
+_Reference106:
+  code=00000005793  desc=JAC S3
+  code=00000005771  desc=Комплект прокладок ВАЗ
+  code=00000005772  desc=Цапфа передняя правая
+  code=00000005773  desc=Комплект подтрубков
+  code=00000005774  desc=Вкладыши коренные

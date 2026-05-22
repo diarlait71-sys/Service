@@ -1,0 +1,189 @@
+OK: Podklyuchenie uspeshno
+=== TABLITSY PO RAZMERU (TOP 40) ===
+          table_name  row_count
+  _DataHistoryQueue0   12002890
+       _AccumRgT4829    2090004
+        _AccumRg4785    1627248
+        _AccumRg4823     877171
+  _Document155_VT679     865385
+  _Document155_VT694     837978
+  _Document155_VT663     833608
+         _InfoRg4353     760004
+        _AccumRg4830     701475
+      _AccumRgTn4858     697071
+       _AccumRgT4793     581803
+        _AccumRg4851     539656
+  _Document162_VT996     528947
+      _AccumRgTn5635     427009
+        _Document155     408707
+  _Document161_VT951     389340
+        _AccumRg5627     373140
+_DocumentJournal1295     331694
+  _Document161_VT968     319040
+         _InfoRg4672     282065
+         _InfoRg4600     260744
+         _InfoRg4675     260744
+  _Document159_VT847     219701
+         _InfoRg5552     216118
+   _UsersWorkHistory     193495
+        _Document162     179178
+         _InfoRg4592     178265
+ _Document170_VT1204     137371
+        _Document161     134790
+       _Reference109     131417
+      _AccumRgTn4836     129717
+     _SystemSettings     122741
+       _Reference123     114808
+  _Document158_VT804     112784
+_DataHistoryVersions     104851
+       _Reference105     101204
+       _Reference106      87246
+  _Document158_VT819      85056
+ _Document167_VT1137      69035
+         _InfoRg4607      68255
+
+=== KOLONKI KRUPNEYSHIKH TABLIC ===
+
+-- _DataHistoryQueue0 (4 kolonok) --
+COLUMN_NAME DATA_TYPE
+_MetadataId    binary
+    _DataId    binary
+  _Position   numeric
+   _Content varbinary
+
+-- _AccumRgT4829 (8 kolonok) --
+ COLUMN_NAME DATA_TYPE
+     _Period datetime2
+_Fld4824RRef    binary
+_Fld4825RRef    binary
+_Fld4826RRef    binary
+_Fld4827RRef    binary
+    _Fld4828   numeric
+     _Fld339   numeric
+   _Splitter   numeric
+
+-- _AccumRg4785 (14 kolonok) --
+  COLUMN_NAME DATA_TYPE
+      _Period datetime2
+_RecorderTRef    binary
+_RecorderRRef    binary
+      _LineNo   numeric
+      _Active    binary
+  _RecordKind   numeric
+ _Fld4786RRef    binary
+ _Fld4787RRef    binary
+ _Fld4788RRef    binary
+ _Fld4789RRef    binary
+ _Fld4790RRef    binary
+     _Fld4791   numeric
+     _Fld4792   numeric
+      _Fld339   numeric
+
+-- _AccumRg4823 (12 kolonok) --
+  COLUMN_NAME DATA_TYPE
+      _Period datetime2
+_RecorderTRef    binary
+_RecorderRRef    binary
+      _LineNo   numeric
+      _Active    binary
+  _RecordKind   numeric
+ _Fld4824RRef    binary
+ _Fld4825RRef    binary
+ _Fld4826RRef    binary
+ _Fld4827RRef    binary
+     _Fld4828   numeric
+      _Fld339   numeric
+
+-- _Document155_VT679 (18 kolonok) --
+        COLUMN_NAME DATA_TYPE
+_Document155_IDRRef    binary
+            _Fld339   numeric
+          _KeyField    binary
+         _LineNo680   numeric
+        _Fld681RRef    binary
+        _Fld682RRef    binary
+            _Fld683   numeric
+            _Fld684   numeric
+            _Fld685   numeric
+            _Fld686   numeric
+        _Fld687RRef    binary
+            _Fld688   numeric
+            _Fld689   numeric
+            _Fld690   numeric
+            _Fld691   numeric
+        _Fld692RRef    binary
+        _Fld693RRef    binary
+           _Fld5669  nvarchar
+
+-- _Document155_VT694 (7 kolonok) --
+        COLUMN_NAME DATA_TYPE
+_Document155_IDRRef    binary
+            _Fld339   numeric
+          _KeyField    binary
+         _LineNo695   numeric
+            _Fld696   numeric
+        _Fld697RRef    binary
+            _Fld698   numeric
+
+-- _Document155_VT663 (18 kolonok) --
+        COLUMN_NAME DATA_TYPE
+_Document155_IDRRef    binary
+            _Fld339   numeric
+          _KeyField    binary
+         _LineNo664   numeric
+        _Fld665RRef    binary
+            _Fld666   numeric
+            _Fld667   numeric
+            _Fld668  nvarchar
+            _Fld669   numeric
+            _Fld670   numeric
+        _Fld671RRef    binary
+            _Fld672   numeric
+            _Fld673   numeric
+            _Fld674   numeric
+            _Fld675   numeric
+        _Fld676RRef    binary
+            _Fld677  nvarchar
+            _Fld678   numeric
+
+-- _InfoRg4353 (12 kolonok) --
+   COLUMN_NAME DATA_TYPE
+      _Fld4354  nvarchar
+ _Fld4355_TYPE    binary
+_Fld4355_RTRef    binary
+_Fld4355_RRRef    binary
+      _Fld4356  nvarchar
+      _Fld4357  nvarchar
+ _Fld4358_TYPE    binary
+_Fld4358_RTRef    binary
+_Fld4358_RRRef    binary
+      _Fld4359  nvarchar
+      _Fld4360    binary
+       _Fld339   numeric
+
+-- _AccumRg4830 (12 kolonok) --
+  COLUMN_NAME DATA_TYPE
+      _Period datetime2
+_RecorderTRef    binary
+_RecorderRRef    binary
+      _LineNo   numeric
+      _Active    binary
+ _Fld4831RRef    binary
+ _Fld4832RRef    binary
+ _Fld5166RRef    binary
+ _Fld4833RRef    binary
+     _Fld4834   numeric
+     _Fld4835   numeric
+      _Fld339   numeric
+
+-- _AccumRgTn4858 (9 kolonok) --
+ COLUMN_NAME DATA_TYPE
+     _Period datetime2
+_Fld4852RRef    binary
+_Fld4853RRef    binary
+_Fld4854RRef    binary
+    _Fld4855   numeric
+    _Fld4856   numeric
+    _Fld4857   numeric
+     _Fld339   numeric
+   _Splitter   numeric

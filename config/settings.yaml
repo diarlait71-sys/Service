@@ -1,0 +1,27 @@
+files:
+  static:
+    - "Дц,должность,репер.xlsx"
+    - "Доля показателей для Руководителя отдела сервиса.xlsx"
+    - "план по остальным показателям.xlsx"
+  monthly:
+    - "Факт Услуги.xlsx"
+    - "Факт Запасные части.xlsx"
+    - "Факт маржанальность.xlsx"
+    - "Факт по остальным показателям.xlsx"
+  logic_default: "Формула расчета.xlsx"
+
+thresholds:
+  marginality_min: 0.30
+  negliquidity_max: 0.07
+  fact_cap_ratio: 1.5
+
+cache:
+  static_ttl_seconds: 3600
+  facts_ttl_seconds: 1800
+
+app:
+  host_port: 8506
+  default_year: "2026"
+
+logging:
+  file: "logs/bonus_calc.log"

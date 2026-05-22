@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "c:\Users\D.Muldabaev\Desktop\Приложения для сервиса\Преза\read_excel_info.py", line 10, in <module>
+    print(row)
+    ~~~~~^^^^^
+  File "C:\Users\D.Muldabaev\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u04b1' in position 214: character maps to <undefined>

@@ -1,0 +1,26 @@
+﻿╟руЁєцр■ фрээ√х...
+  ╤ЄЁюъ ё фрээ√ьш: 393
+┬√яюыэ ■ Ёрёў╕Є√...
+╘юЁьшЁє■ Excel-юЄў╕Є...
+  ╟ряюыэхэю ёЄЁюъ: 393
+  ╩ЁшЄшўхёъшї яючшЎшщ: 183
+  ╧ючшЎшщ ёю ёъЁ√Є√ь Ёрёїюфюь: 266
+  ╧ючшЎшщ ъ чръєяъх: 233, ёєььр: 1,779,475,564 Єхэух
+py : Traceback (most recent call last):
+строка:1 знак:1
++ py "C:\Users\D.Muldabaev\Desktop\Приложения для сервиса\med_plan_fact ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last) 
+   ::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\D.Muldabaev\Desktop\╧Ёшыюцхэш  фы  ёхЁтшёр\med_plan_fact_analy
+sis.py", line 538, in <module>
+    print(f"\n\u2705 ╬Єў╕Є ёюїЁрэ╕э: {OUT}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\D.Muldabaev\AppData\Local\Programs\Python\Python313\Lib\encodi
+ngs\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position
+ 2: character maps to <undefined>

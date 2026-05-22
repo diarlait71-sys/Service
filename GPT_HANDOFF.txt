@@ -1,0 +1,250 @@
+PROJECT HANDOFF: BONUS APP FOR SERVICE DEPARTMENT
+
+1. PROJECT PURPOSE
+This is a Streamlit application for calculating bonuses for service department employees across dealer centers.
+The active and most up-to-date app is app_new.py.
+The older app.py still exists, but current work has been happening in app_new.py.
+
+2. CURRENT HOST / RUNTIME
+Current local host used in the latest session:
+http://localhost:8506
+
+Manual run command used:
+C:/Users/D.Muldabaev/AppData/Local/Programs/Python/Python313/python.exe -m streamlit run app_new.py --server.port 8506 --server.headless true
+
+Default launcher files still point to app.py, not app_new.py:
+- run.bat
+- start.ps1
+
+3. PYTHON / DEPENDENCIES
+Python:
+- 3.13.3 system install
+
+requirements.txt:
+- streamlit==1.28.1
+- pandas==2.1.1
+- openpyxl==3.10.10
+- python-dateutil==2.8.2
+- xlrd>=2.0.1
+- numpy>=1.24
+- sqlalchemy>=2.0
+- pyodbc>=5.1
+
+4. MAIN FILES
+- app_new.py
+  Main active Streamlit UI for service department bonuses.
+
+- real_bonus_calculator.py
+  Main active calculation/data loading engine for the real-data mode.
+
+- app.py
+  Older application entrypoint. Still referenced by run.bat and start.ps1.
+
+- mechanics_calculator.py
+  Separate mechanic bonus logic. UI mode exists but is not the active focus.
+
+- employee_config.py
+  Employee-related configuration for the older app architecture.
+
+- sql_connection.py, sql_profiles.py
+  SQL connection/profile support for the older app flow.
+
+5. IMPORTANT DATA FILES USED BY REAL MODE
+Static files:
+- Дц,должность,репер.xlsx
+- Доля показателей для Руководителя отдела сервиса.xlsx
+- план по остальным показателям.xlsx
+
+Monthly files from 1C:
+- Факт Услуги.xlsx
+- Факт Запасные части.xlsx
+- Факт маржанальность.xlsx
+- Факт по остальным показателям.xlsx
+
+Optional logic file:
+- Формула расчета.xlsx
+
+Optional monthly archive folder:
+- месяцы/
+
+6. ACTIVE UI MODES IN app_new.py
+Mode selector now shows:
+- Бонусы отдела сервиса
+- Механики
+- Остальные сотрудники
+
+The service department mode is the implemented and active one.
+Mechanics and other employees modes are placeholder-level in app_new.py.
+
+7. CURRENT SERVICE BONUS FLOW
+In app_new.py, the real mode does the following:
+- Loads required files from current folder, uploaded files, or saved month archive.
+- Reads all settings from Дц,должность,репер.xlsx.
+- Lets the user choose dealer center and position.
+- Calculates bonus for the selected row.
+- Builds analytics for all dealer centers and positions.
+- Exports Excel reports.
+
+8. KEY BEHAVIOR ALREADY IMPLEMENTED
+- Multi dealer center support.
+- Multi position support.
+- Manager name support from settings file.
+- Separate base salary and bonus.
+- Total payout shown as salary + bonus.
+- Service/spare parts overperformance is NOT capped at 100%.
+- Marginality is calculated per dealer center as sum(I) / sum(G) from Факт маржанальность.xlsx.
+- Other KPI facts are read by dealer center column when available.
+- Analytics tab supports summary across all positions and all dealer centers.
+- Excel export includes styled sheets and totals row.
+- Uploaded month data can be saved in archive folders under месяцы/YYYY-Месяц.
+
+9. SETTINGS FILE STRUCTURE EXPECTED NOW
+Main settings file:
+- Дц,должность,репер.xlsx
+
+Important columns already supported:
+- Диллерский центр / Дилерский центр / Название ДЦ
+- Должность
+- Репер / Оклад / База
+- ФИО руководителя отдела сервиса / ФИО / Руководитель / ФИО руководителя
+
+New optional columns recently added:
+- Профиль весов
+- Профиль логики
+
+Meaning of new profile columns:
+- If the same profile value is used in multiple rows, one common weight/logic profile is applied to all those dealer centers.
+- If a profile value is unique on one row, it works as a dealer-center-specific setup.
+- If the profile column is empty, the app falls back to the older auto behavior.
+
+10. WEIGHT FILE RESOLUTION LOGIC
+Implemented in real_bonus_calculator.py.
+
+Weights are resolved in this order:
+1. Use profile from column Профиль весов, if present.
+2. Try direct file: {Профиль весов}.xlsx
+3. Try prefixed file: Доля показателей для {Профиль весов}.xlsx
+4. Try match by position name.
+5. Fallback to Доля показателей для Руководителя отдела сервиса.xlsx or first matching file.
+
+Recommended naming for grouped profiles:
+- Доля показателей для ROS_GROUP_1.xlsx
+- Доля показателей для ALMATY_SPECIAL.xlsx
+
+11. LOGIC FILE RESOLUTION LOGIC
+Implemented in real_bonus_calculator.py.
+
+Logic is resolved in this order:
+1. Use profile from column Профиль логики, if present.
+2. Try direct file: {Профиль логики}.xlsx
+3. Try Формула расчета - {Профиль логики}.xlsx
+4. Try Формула расчета {Профиль логики}.xlsx
+5. Fallback to Формула расчета.xlsx
+
+Recommended naming:
+- Формула расчета - ROS_GROUP_1.xlsx
+- Формула расчета - ALMATY_SPECIAL.xlsx
+
+12. CURRENT DEFAULT SITUATION
+At the moment, user has NOT yet added separate weights and logic for all positions.
+Therefore many positions currently still fall back to the service manager weights file.
+This is known and intentional until new files are provided.
+
+13. IMPORTANT IMPLEMENTATION DETAILS IN real_bonus_calculator.py
+BonusSettings dataclass currently contains:
+- dealer_center
+- position
+- reper
+- manager_name
+- weights_profile
+- logic_profile
+
+BonusDataLoader improvements already added:
+- skips empty/broken rows in settings file
+- parses floats with commas/spaces
+- deduplicates repeated dealer_center + position pairs
+- supports dynamic column names for the settings file
+
+BonusCalculator currently:
+- loads settings for selected dealer center + position
+- resolves weights using weights_profile or position
+- resolves logic using logic_profile or default logic file
+- loads services facts, spare parts facts, marginality facts, and other KPI facts
+
+14. CORE BONUS CALCULATION RULES CURRENTLY USED
+Base salary:
+- reper * weight of Оклад (База)
+
+Services bonus:
+- reper * weight * (fact / plan)
+
+Spare parts bonus:
+- reper * weight * (fact / plan)
+
+Marginality bonus:
+- full metric weight is paid only if actual marginality >= planned marginality
+
+Negliquidity:
+- negative motivator; applied when fact > plan
+
+Other KPIs:
+- evaluated in _calculate_other_metric_bonus()
+- currently supports text comparison, yes/no logic, and number inequality logic
+
+15. SOURCE OF PLAN / FACT DATA CURRENTLY USED
+Services:
+- plan and fact are summed for selected dealer center from Факт Услуги.xlsx
+
+Spare parts:
+- plan and fact are summed for selected dealer center from Факт Запасные части.xlsx
+
+Marginality:
+- per dealer center from Факт маржанальность.xlsx
+- formula: total margin / total revenue
+
+Other KPIs:
+- plan from план по остальным показателям.xlsx
+- fact from dealer center column in Факт по остальным показателям.xlsx when available
+
+16. ANALYTICS IN app_new.py
+Analytics tab currently supports:
+- calculate all positions and dealer centers
+- grouped display by position
+- filter by positions
+- top-5 by total payout
+- grouped chart by dealer center and position
+- multi-sheet Excel export
+
+Excel export currently includes:
+- summary sheet
+- one sheet per position
+- totals row
+- integer number formatting for key money columns
+
+17. MONTH ARCHIVE FEATURE
+Implemented in app_new.py.
+
+The app can:
+- save current loaded files to archive folder: месяцы/YYYY-Месяц
+- reopen saved months from archive
+- delete archive folders from UI
+
+18. WHAT THE USER SAID ABOUT NEXT STEPS
+The user plans to:
+- define logic and weights later for all positions
+- show later exactly where plan and fact should come from for each position
+
+So the current code should be treated as a flexible base framework, not final business logic for every role.
+
+19. RECOMMENDED NEXT TASKS FOR ANOTHER GPT
+1. Add a visible diagnostic table showing which exact weight file and logic file were used for each dealer center + position.
+2. Update run.bat and start.ps1 to launch app_new.py instead of app.py.
+3. Add per-position/per-profile source mapping for plan and fact if business rules differ by role.
+4. Add a UI editor or import template for profile management if manual Excel maintenance becomes too hard.
+
+20. IMPORTANT NOTE
+If another GPT is asked to continue development, it should work primarily with:
+- app_new.py
+- real_bonus_calculator.py
+
+and should treat app.py as legacy unless explicitly told otherwise.

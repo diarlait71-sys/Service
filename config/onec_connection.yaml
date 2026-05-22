@@ -1,0 +1,19 @@
+# Параметры подключения к 1С (HTTP OData)
+# ВНИМАНИЕ: не передавайте этот файл посторонним лицам
+
+onec:
+  url: "http://1c.doscar.kz:55987/DoscarGroup"
+  username: "ФинДепартамент"
+  password: "D3_09081995"
+  timeout: 30
+
+# Объекты 1С для анализа EBITDA → Кэш
+# Статус: ожидаем публикации от администратора 1С
+odata_entities:
+  sales:            "AccumulationRegister_Продажи"
+  receivables:      "AccumulationRegister_РасчетыСПокупателями"
+  payables:         "AccumulationRegister_РасчетыСПоставщиками"
+  inventory:        "AccumulationRegister_ТоварыНаСкладах"
+  fixed_assets:     "AccumulationRegister_СтоимостьОС"
+  loans:            "Document_ПолучениеКредита"
+  loan_payments:    "Document_ПогашениеКредита"
